@@ -1,0 +1,11 @@
+Download mongodb package to machine
+https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/8.0/multiverse/binary-amd64/mongodb-org-server_8.0.6_amd64.deb
+
+2. install dpkg -i *.deb file 
+
+3. verify /var/lib/mongodb and /var/log/mongodb directorues created. 
+
+4. verify /etc/mongo.conf file got created. 
+
+5. start the mongodb service. 
+systemctl start mongod 
