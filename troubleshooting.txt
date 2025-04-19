@@ -1,0 +1,3 @@
+if opentelemetry command not found error in python . 
+
+opentelemetry-bootstrap -a install

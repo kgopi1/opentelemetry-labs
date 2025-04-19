@@ -1,0 +1,1 @@
+docker run --rm --name jaeger -e COLLECTOR_OTLP_ENABLED=true -p 5778:5778 -p 16686:16686 -p 5317:4317 -p 5318:4318 jaegertracing/all-in-one:1.54

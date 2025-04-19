@@ -1,0 +1,7 @@
+adding metrics to apps. 
+
+1. Till now we have only traces from apps. 
+2. now we will add metrics and logs from apps send to grafana using same otele-collect . 
+3. by defaults , apps with auto instrumentation will have default metrics / logs . 
+4. if you want custom metrics , you can add it in the application code(app.py) with get_meter . 
+5. check the examples in branch - 05_02e. 

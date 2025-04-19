@@ -1,0 +1,8 @@
+Current state:
+apps -> opentel-collector -> console & jagger . 
+
+1. create new grafana account . 
+2. create opentele connection which creates config.yaml file . 
+3. update opentele-contrib service config file . /etc/telcol-contrib to use config file downloaded from grafana. 
+4. now 
+ apps -> opentel-collector -> grafana
